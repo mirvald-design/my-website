@@ -1,6 +1,6 @@
-<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M5 2H11.0027C12.658 2 14 3.342 14 4.99733V11.0033C14 12.658 12.658 14 11.0027 14H4.99733C3.342 14 2 12.658 2 11.0027V5C2 3.34333 3.34333 2 5 2V2Z" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5.41341 7.40002V11" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7.81274 11V8.90002C7.81274 8.07136 8.48408 7.40002 9.31274 7.40002V7.40002C10.1414 7.40002 10.8127 8.07136 10.8127 8.90002V11" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5.41201 5.22533C5.32935 5.22533 5.26201 5.29266 5.26268 5.37533C5.26268 5.45799 5.33001 5.52533 5.41268 5.52533C5.49535 5.52533 5.56268 5.45799 5.56268 5.37533C5.56268 5.29199 5.49535 5.22533 5.41201 5.22533" stroke="#111111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5 2.5H11.0027C12.658 2.5 14 3.842 14 5.49733V11.5033C14 13.158 12.658 14.5 11.0027 14.5H4.99733C3.342 14.5 2 13.158 2 11.5027V5.5C2 3.84333 3.34333 2.5 5 2.5V2.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.41341 7.8999V11.4999" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.81274 11.4999V9.3999C7.81274 8.57124 8.48408 7.8999 9.31274 7.8999V7.8999C10.1414 7.8999 10.8127 8.57124 10.8127 9.3999V11.4999" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.41201 5.72533C5.32935 5.72533 5.26201 5.79266 5.26268 5.87533C5.26268 5.95799 5.33001 6.02533 5.41268 6.02533C5.49535 6.02533 5.56268 5.95799 5.56268 5.87533C5.56268 5.79199 5.49535 5.72533 5.41201 5.72533" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

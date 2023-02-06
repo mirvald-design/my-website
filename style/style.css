@@ -63,7 +63,7 @@ h3 {
     display: flex;
     width: 100%;
     background-color: #fff;
-    border-radius: 32px;
+    border-radius: 20px;
     padding: 24px;
     border: 1px solid rgb(240 242 248);
     justify-content: space-between;
@@ -72,7 +72,7 @@ h3 {
 
   .available-btn {
     background-color: #dad4ff;
-    border-radius: 32px;
+    border-radius: 20px;
     padding: 8px 16px;
     width: fit-content;
   }
@@ -83,7 +83,7 @@ h3 {
     justify-content: space-between;
     gap: 32px;
     padding: 24px;
-    border-radius: 32px;
+    border-radius: 20px;
     background-color: #fff;
     border: 1px solid #1919191a;
     height: 90vh;
@@ -133,7 +133,7 @@ h3 {
     color: #fff;
     width: 100%;
     padding: 24px;
-    border-radius: 32px;
+    border-radius: 20px;
     border: 1px solid rgb(240 242 248);
     background-image: url(/img/image.png);
   }
@@ -160,7 +160,7 @@ h3 {
 
   .content {
     background-color: #fff;
-    border-radius: 32px;
+    border-radius: 20px;
     padding: 24px;
     border: 1px solid rgb(240 242 248);
   }
@@ -175,8 +175,11 @@ h3 {
     padding-top: 12px;
   }
   .content-left {
+    display: flex;
+    flex-direction: column;
     flex: 1 1 50%;
     overflow: hidden;
+    gap: 12px;
   }
 
   .logo {
@@ -202,7 +205,7 @@ h3 {
     flex-grow: 3;
     padding: 24px;
     background-color: #fff;
-    border-radius: 32px;
+    border-radius: 20px;
     color: #191919;
     border: 1px solid rgb(240 242 248);
   }
@@ -228,7 +231,7 @@ h3 {
     background-color: #E3E4E6;
     width: 236px;
     height: 512px;
-    border-radius: 32px;
+    border-radius: 20px;
     background-image: url(/img/fitly-cover.jpg);
     background-size: cover;
     border: 4px solid #C2C2C2;
@@ -237,7 +240,7 @@ h3 {
     background-color: #E3E4E6;
     width: 236px;
     height: 512px;
-    border-radius: 32px;
+    border-radius: 20px;
     background-image: url(/img/carry-cover.jpg);
     background-size: cover;
     border: 4px solid #C2C2C2;
@@ -246,7 +249,7 @@ h3 {
     background-color: #E3E4E6;
     width: 236px;
     height: 512px;
-    border-radius: 32px;
+    border-radius: 20px;
     background-image: url(/img/fastmobile-cover.jpg);
     background-size: cover;
     border: 4px solid #C2C2C2;
@@ -255,7 +258,7 @@ h3 {
     background-color: #E3E4E6;
     width: 236px;
     height: 512px;
-    border-radius: 32px;
+    border-radius: 20px;
     background-image: url(/img/mover-cover.jpg);
     background-size: cover;
     border: 4px solid #C2C2C2;
@@ -276,7 +279,7 @@ h3 {
 
   .btn-contact {
     background-color: #fff;
-    border-radius: 32px;
+    border-radius: 20px;
     padding: 16px;
     font-size: 14px;
   }
@@ -289,7 +292,7 @@ h3 {
     box-shadow: rgb(240 242 248) 0px 0px 0px 2px;
     transition: all 0.3s ease-out 0s;
     padding: 0px 12px;
-    border-radius: 18px;
+    border-radius: 20px;
     height: 36px;
     gap: 10px;
     will-change: box-shadow, transform;
@@ -342,7 +345,7 @@ h3 {
 
   .available-btn {
     background-color: #dad4ff;
-    border-radius: 32px;
+    border-radius: 20px;
     padding: 8px 16px;
     width: fit-content;
   }
@@ -384,7 +387,7 @@ h3 {
     box-shadow: rgb(240 242 248) 0px 0px 0px 2px;
     transition: all 0.3s ease-out 0s;
     padding: 0px 12px;
-    border-radius: 18px;
+    border-radius: 20px;
     height: 36px;
     gap: 10px;
     will-change: box-shadow, transform;

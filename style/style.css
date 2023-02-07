@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Jost", sans-serif;
   background: #0d0a19;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 html {

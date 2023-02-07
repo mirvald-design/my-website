@@ -1,5 +1,5 @@
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
-  .about-container {
+  .resume-container {
     display: flex;
     flex: 1 1 100%;
     flex-direction: column;

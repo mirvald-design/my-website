@@ -1,30 +1,14 @@
+@import "./reset.css";
+
 body {
   margin: 0;
   font-family: "Jost", sans-serif;
-  background: #0d0a19;
+  background: #020202;
   overflow: hidden;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  color: #111;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -55,7 +39,7 @@ h2 {
 }
 
 h3 {
-  color: #eeeeee;
+  color: #a1a3bb;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -63,6 +47,10 @@ h3 {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
+  .img-intro {
+    width: 100%;
+  }
+
   .footer-container {
     display: flex;
     width: 100%;
@@ -161,7 +149,7 @@ h3 {
     max-width: 700px;
     overflow-y: scroll;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 12px;
     height: 100%;
   }
@@ -171,6 +159,13 @@ h3 {
     flex-wrap: wrap;
     gap: 12px;
   }
+  .btn-container {
+    display: flex;
+    gap: 12px;
+  }
+  .btn-container a {
+    color: #fff;
+  }
   .block1 {
     display: flex;
     flex: 1 1 100%;
@@ -178,14 +173,7 @@ h3 {
     transition: all 0.3s ease-out 0s;
     gap: 16px;
     padding: 40px;
-    background: linear-gradient(
-        154.49deg,
-        rgba(121, 117, 131, 0.2) 5.35%,
-        rgba(54, 53, 103, 0.2) 83.85%
-      ),
-      rgba(49, 48, 54, 0.3);
-    backdrop-filter: blur(2.02059px);
-    border-radius: 40px;
+    background: #1c1924;
   }
 
   .block2,
@@ -196,14 +184,7 @@ h3 {
     transition: all 0.3s ease-out 0s;
     gap: 12px;
     padding: 40px;
-    background: linear-gradient(
-        154.49deg,
-        rgba(121, 117, 131, 0.2) 5.35%,
-        rgba(54, 53, 103, 0.2) 83.85%
-      ),
-      rgba(49, 48, 54, 0.3);
-    backdrop-filter: blur(2.02059px);
-    border-radius: 40px;
+    background: #1c1924;
   }
 
   .block4 {
@@ -213,14 +194,7 @@ h3 {
     transition: all 0.3s ease-out 0s;
     gap: 12px;
     padding: 40px;
-    background: linear-gradient(
-        154.49deg,
-        rgba(121, 117, 131, 0.2) 5.35%,
-        rgba(54, 53, 103, 0.2) 83.85%
-      ),
-      rgba(49, 48, 54, 0.3);
-    backdrop-filter: blur(2.02059px);
-    border-radius: 40px;
+    background: #1c1924;
   }
 
   .block5,
@@ -231,77 +205,12 @@ h3 {
     transition: all 0.3s ease-out 0s;
     gap: 12px;
     padding: 40px;
-    background: linear-gradient(
-        154.49deg,
-        rgba(121, 117, 131, 0.2) 5.35%,
-        rgba(54, 53, 103, 0.2) 83.85%
-      ),
-      rgba(49, 48, 54, 0.3);
-    backdrop-filter: blur(2.02059px);
-    border-radius: 40px;
+    background: #1c1924;
   }
 
   .logo {
     font-size: 14px;
     color: #fff;
-  }
-
-  .fasbit-img {
-    border-radius: 40px;
-    width: 100%;
-    height: 377px;
-    background-image: url(/img/fasbit-cover.jpg);
-    background-size: cover;
-    border: 4px solid #c2c2c2;
-  }
-
-  .studio-img {
-    border-radius: 20px;
-    width: 100%;
-    height: 377px;
-    background-image: url(/img/studio-cover.jpg);
-    background-size: cover;
-    border: 4px solid #c2c2c2;
-  }
-
-  .fitly-img {
-    background-color: #e3e4e6;
-    width: 100%;
-    height: 574px;
-    border-radius: 32px;
-    background-image: url(/img/fitly-cover.jpg);
-    background-size: cover;
-    border: 4px solid #c2c2c2;
-  }
-
-  .carry-img {
-    background-color: #e3e4e6;
-    width: 100%;
-    height: 574px;
-    border-radius: 32px;
-    background-image: url(/img/carry-cover.jpg);
-    background-size: cover;
-    border: 4px solid #c2c2c2;
-  }
-
-  .fastmobile-img {
-    background-color: #e3e4e6;
-    width: 100%;
-    height: 574px;
-    border-radius: 32px;
-    background-image: url(/img/fastmobile-cover.jpg);
-    background-size: cover;
-    border: 4px solid #c2c2c2;
-  }
-
-  .mover-img {
-    background-color: #e3e4e6;
-    width: 100%;
-    height: 574px;
-    border-radius: 32px;
-    background-image: url(/img/mover-cover.jpg);
-    background-size: cover;
-    border: 4px solid #c2c2c2;
   }
 
   .card-projects:hover {
@@ -340,10 +249,6 @@ h3 {
   .social-container p {
     font-size: 14px;
   }
-}
-
-.btn-see a {
-  font-size: 16px;
 }
 
 .mail p {

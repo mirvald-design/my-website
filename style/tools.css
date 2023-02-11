@@ -17,14 +17,7 @@
     transition: all 0.3s ease-out 0s;
     gap: 12px;
     padding: 40px;
-    background: linear-gradient(
-        154.49deg,
-        rgba(121, 117, 131, 0.2) 5.35%,
-        rgba(54, 53, 103, 0.2) 83.85%
-      ),
-      rgba(49, 48, 54, 0.3);
-    backdrop-filter: blur(2.02059px);
-    border-radius: 40px;
+    background: #1c1924;
   }
   .tools-img {
     width: 50px;
@@ -32,15 +25,4 @@
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  body {
-    text-align: center;
-  }
-
-  #message {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 50px auto;
-    text-align: center;
-  }
 }

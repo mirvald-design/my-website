@@ -359,7 +359,17 @@
     </div>
 
 </body>
+<script>
+    // Smooth scrolling when clicking on navigation links
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
 
-</html>
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+                behavior: "smooth",
+            });
+        });
+    });
+</script>
 
 </html>

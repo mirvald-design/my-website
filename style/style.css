@@ -38,15 +38,13 @@ h2 {
   margin: 0;
 }
 
-h3 {
-  color: #a1a3bb;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: normal;
-  margin: 0;
-}
-
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+  }
   .img-intro {
     width: 100%;
   }
@@ -70,8 +68,24 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     gap: 32px;
-    padding: 40px;
+    padding: 64px;
     height: 100%;
+  }
+  .title {
+    color: #333;
+    font-size: 34px;
+  }
+  .paragraph {
+    color: #333;
+    font-size: 18px;
+  }
+  .title-project {
+    font-size: 24px;
+    color: #fff;
+  }
+  .paragraph-project {
+    font-size: 16px;
+    color: #ffffffb2;
   }
 
   .top {
@@ -79,11 +93,27 @@ h3 {
     flex-direction: column;
     gap: 32px;
   }
+  .lgbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   .menu {
     display: flex;
-    flex-direction: column;
-    gap: 16px;
+  }
+  .btn-discuss {
+    background-color: #020202;
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: #fff;
+  }
+  .button {
+    background-color: #fff;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 8px 16px;
+    border: 1px solid #e6e6e6;
   }
 
   .button a::before {
@@ -92,7 +122,8 @@ h3 {
   }
 
   .button a {
-    color: #fff;
+    font-size: 14px;
+    color: #333;
     cursor: pointer;
   }
 
@@ -101,9 +132,14 @@ h3 {
     flex-direction: column;
     gap: 12px;
   }
+  .avatar-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
 
   .avatar-img {
-    border: 1px solid #fff;
+    border: 1px solid #333;
     border-radius: 52px;
     width: 52px;
     height: 52px;
@@ -134,23 +170,27 @@ h3 {
 
   .main {
     display: flex;
+    padding: 32px;
+    gap: 32px;
     height: 100vh;
     justify-content: center;
     align-items: center;
   }
 
   .content-left {
-    max-width: 468px;
     overflow: hidden;
     height: 100%;
+    background-color: #f7f7f7;
+    width: 50%;
+    border-radius: 30px;
   }
 
   .content-right {
-    max-width: 700px;
+    width: 50%;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 64px;
     height: 100%;
   }
 
@@ -159,21 +199,16 @@ h3 {
     flex-wrap: wrap;
     gap: 12px;
   }
-  .btn-container {
-    display: flex;
-    gap: 12px;
-  }
-  .btn-container a {
-    color: #fff;
-  }
+
   .block1 {
     display: flex;
     flex: 1 1 100%;
     flex-direction: column;
     transition: all 0.3s ease-out 0s;
     gap: 16px;
-    padding: 40px;
-    background: #1c1924;
+    padding: 64px;
+    background: #171717;
+    border-radius: 30px;
   }
 
   .block2,
@@ -183,8 +218,9 @@ h3 {
     flex-direction: column;
     transition: all 0.3s ease-out 0s;
     gap: 12px;
-    padding: 40px;
-    background: #1c1924;
+    padding: 64px;
+    background: #171717;
+    border-radius: 30px;
   }
 
   .block4 {
@@ -193,8 +229,9 @@ h3 {
     flex-direction: column;
     transition: all 0.3s ease-out 0s;
     gap: 12px;
-    padding: 40px;
-    background: #1c1924;
+    padding: 64px;
+    background: #171717;
+    border-radius: 30px;
   }
 
   .block5,
@@ -204,13 +241,15 @@ h3 {
     flex-direction: column;
     transition: all 0.3s ease-out 0s;
     gap: 12px;
-    padding: 40px;
-    background: #1c1924;
+    padding: 64px;
+    background: #171717;
+    border-radius: 30px;
   }
 
   .logo {
-    font-size: 14px;
-    color: #fff;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
   }
 
   .card-projects:hover {
@@ -232,6 +271,12 @@ h3 {
     padding: 16px;
     font-size: 14px;
   }
+  .btn-see {
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+  }
 
   .btn-see:hover {
     cursor: pointer;
@@ -247,12 +292,13 @@ h3 {
     justify-items: center;
   }
   .social-container p {
-    font-size: 14px;
+    font-size: 18px;
+    color: #333;
   }
 }
 
 .mail p {
-  color: #fff;
+  color: #333;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {

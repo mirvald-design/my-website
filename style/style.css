@@ -329,7 +329,7 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
-    padding: 32px;
+    padding: 16px;
     background-color: #fff;
     border-radius: 30px;
   }
@@ -342,8 +342,8 @@ h2 {
     display: flex;
   }
   .avatar-img {
-    height: 32px;
-    width: 32px;
+    height: 36px;
+    width: 36px;
     background-image: url(/img/avatar.jpg);
     background-size: cover;
     border-radius: 30px;
@@ -407,7 +407,7 @@ h2 {
     flex-direction: column;
     transition: all 0.3s ease-out 0s;
     gap: 16px;
-    padding: 32px;
+    padding: 16px;
     background: #171717;
     border-radius: 30px;
   }
@@ -419,7 +419,7 @@ h2 {
     flex-direction: column;
     transition: all 0.3s ease-out 0s;
     gap: 12px;
-    padding: 32px;
+    padding: 16px;
     background: #171717;
     border-radius: 30px;
   }
@@ -430,7 +430,7 @@ h2 {
     flex-direction: column;
     transition: all 0.3s ease-out 0s;
     gap: 12px;
-    padding: 32px;
+    padding: 16px;
     background: #171717;
     border-radius: 30px;
   }
@@ -442,7 +442,7 @@ h2 {
     flex-direction: column;
     transition: all 0.3s ease-out 0s;
     gap: 12px;
-    padding: 32px;
+    padding: 16px;
     background: #171717;
     border-radius: 30px;
   }

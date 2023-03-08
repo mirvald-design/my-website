@@ -1,12 +1,5 @@
 @import "./reset.css";
 
-body {
-  margin: 0;
-  font-family: "Jost", sans-serif;
-  background: #020202;
-  overflow: hidden;
-}
-
 h1 {
   color: #fff;
   margin: 0;
@@ -35,6 +28,12 @@ h2 {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
+  body {
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    background: #020202;
+    overflow: hidden;
+  }
   h3 {
     font-size: 18px;
     font-weight: 500;
@@ -310,25 +309,152 @@ h2 {
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   body {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    height: 100vh;
-    padding-left: 16px;
-    padding-right: 16px;
-    overflow: hidden;
-  }
-
-  #message {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 50px auto;
-    text-align: center;
-    color: #fff;
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    background: #020202;
   }
   .main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px;
+  }
+  .content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .avatar-container {
+    display: flex;
+  }
+  .avatar-img {
+    height: 32px;
+    width: 32px;
+    background-image: url(/img/avatar.jpg);
+    background-size: cover;
+    border-radius: 30px;
+  }
+  .title {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .btn-discuss {
+    background-color: #020202;
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .btn-social p {
     display: none;
+  }
+  .btn-social img {
+    width: 24px;
+  }
+  .btn-social {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-items: center;
+  }
+  .social-container {
+    display: flex;
+    gap: 16px;
+  }
+  .lgbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .header-social-block {
+    display: flex;
+    gap: 12px;
+  }
+  .social-container {
+    display: flex;
+  }
+  .menu {
+    display: none;
+  }
+  .projects-container {
+    display: flex;
+    overflow: scroll;
+    gap: 12px;
+  }
+  .block1 {
+    display: flex;
+    flex: 0 0 90%;
+    flex-direction: column;
+    transition: all 0.3s ease-out 0s;
+    gap: 16px;
+    padding: 32px;
+    background: #171717;
+    border-radius: 30px;
+  }
+
+  .block2,
+  .block3 {
+    display: flex;
+    flex: 0 0 90%;
+    flex-direction: column;
+    transition: all 0.3s ease-out 0s;
+    gap: 12px;
+    padding: 32px;
+    background: #171717;
+    border-radius: 30px;
+  }
+
+  .block4 {
+    display: flex;
+    flex: 0 0 90%;
+    flex-direction: column;
+    transition: all 0.3s ease-out 0s;
+    gap: 12px;
+    padding: 32px;
+    background: #171717;
+    border-radius: 30px;
+  }
+
+  .block5,
+  .block6 {
+    display: flex;
+    flex: 0 0 90%;
+    flex-direction: column;
+    transition: all 0.3s ease-out 0s;
+    gap: 12px;
+    padding: 32px;
+    background: #171717;
+    border-radius: 30px;
+  }
+
+  .paragraph-project {
+    font-size: 16px;
+    color: #ffffffb2;
+  }
+  .btn-see {
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
   }
 }

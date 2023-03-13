@@ -47,6 +47,7 @@
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .about-container {
     display: flex;
+    display: none;
     flex: 1 1 100%;
     flex-direction: column;
     transition: all 0.3s ease-out 0s;

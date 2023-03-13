@@ -34,6 +34,9 @@ h2 {
     background: #020202;
     overflow: hidden;
   }
+  .mobile-blank {
+    display: none;
+  }
   h3 {
     font-size: 18px;
     font-weight: 500;
@@ -199,6 +202,13 @@ h2 {
     gap: 64px;
     height: 100%;
   }
+  .title-section {
+    display: flex;
+    gap: 12px;
+  }
+  .title-section img {
+    width: 31px;
+  }
 
   .projects-container {
     display: flex;
@@ -312,6 +322,20 @@ h2 {
     margin: 0;
     font-family: "Jost", sans-serif;
     background: #020202;
+  }
+  .mobile-blank {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    font-size: 1.5rem;
   }
   .main {
     display: flex;

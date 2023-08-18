@@ -4,10 +4,10 @@
   body {
     margin: 0;
     font-family: "OpenSauceOne", sans-serif;
-    background: #020202;
+    background: #fff;
   }
 
-  .mobile-blank {
+  /* .mobile-blank {
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -22,13 +22,16 @@
     background-color: #111;
     color: #fff;
     font-size: 1.5rem;
-  }
+  } */
 
   .main {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    padding: 10px;
+    padding: 16px;
+    gap: 30px;
+  }
+  .content-left {
+    display: flex;
   }
 
   .content-right {
@@ -40,10 +43,10 @@
   .header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 16px;
-    background-color: #fff;
+    border: solid 1px #e5eaec;
+    gap: 30px;
+    padding: 20px;
+    background: linear-gradient(90deg, #dfe9f3 0%, #fff 100%);
     border-radius: 30px;
   }
 
@@ -55,32 +58,27 @@
 
   .avatar-container {
     display: flex;
+    align-items: center;
+    gap: 16px;
   }
 
   .avatar-img {
-    height: 36px;
-    width: 36px;
+    height: 60px;
+    width: 60px;
     background-size: cover;
+    background-image: url(/img/avatar.jpg);
+  }
+
+  .badge-available {
+    background: rgba(29, 155, 240, 0.1);
+    color: #1d9bf0;
+    padding: 6px 12px;
+    border-radius: 25px;
   }
 
   .title {
-    font-size: 24px;
-    color: #333;
-  }
-
-  .btn-social p {
-    display: none;
-  }
-
-  .btn-social img {
-    width: 24px;
-  }
-
-  .btn-social {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-    justify-items: center;
+    font-size: 40px;
+    line-height: 47px;
   }
 
   .social-container {

@@ -1,1 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+@font-face {
+  font-family: "OpenSauceOne";
+  src: url("fonts/OpenSauceOne-Regular.woff2") format("woff2"),
+    url("fonts/OpenSauceOne-Medium.woff2") format("woff2"),
+    url("fonts/OpenSauceOne-SemiBold.woff2") format("woff2");
+  font-weight: 500, 600, 700;
+}

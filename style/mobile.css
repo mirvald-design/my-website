@@ -94,25 +94,36 @@
     gap: 12px;
   }
 
-  .block1 {
-    display: flex;
-    flex: 0 0 90%;
-    flex-direction: column;
-    transition: all 0.3s ease-out 0s;
-    gap: 16px;
-    padding: 16px;
-    border-radius: 25px;
-    border: 1px solid #e5eaec;
-    background: #fff;
-    box-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.1),
-      0px 1px 2px 0px rgba(16, 24, 40, 0.06);
+  .logo-container {
+    border-radius: 52px;
+    width: 52px;
+    height: 52px;
+    background-size: cover;
   }
 
-  .block2,
-  .block5,
-  .paragraph-project {
-    font-size: 16px;
-    color: #ffffffb2;
+  [data-logo="sub2earn"] {
+    background-image: url(/img/logo-product/sub2earn.svg);
+  }
+
+  [data-logo="lotus"] {
+    background-image: url(/img/logo-product/lotus.svg);
+  }
+
+  [data-logo="bravy"] {
+    background-image: url(/img/logo-product/bravy.svg);
+  }
+
+  .project-card {
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 25px;
+    border: 1px solid #e5eaec;
+    box-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.1),
+      0px 1px 2px 0px rgba(16, 24, 40, 0.06);
   }
 
   .btn-cta {

@@ -98,80 +98,46 @@
     background-image: url(/img/avatar.jpg);
   }
 
-  .sub2earn-img {
+  .logo-container {
     border-radius: 52px;
     width: 52px;
     height: 52px;
     background-size: cover;
+  }
+
+  [data-logo="sub2earn"] {
     background-image: url(/img/logo-product/sub2earn.svg);
   }
 
-  .Lotusmarket-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="lotus"] {
     background-image: url(/img/logo-product/lotus.svg);
   }
 
-  .bravy-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="bravy"] {
     background-image: url(/img/logo-product/bravy.svg);
   }
-  .ocean-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="ocean"] {
     background-image: url(/img/logo-product/ocean.svg);
   }
-  .qoffer-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="qoffer"] {
     background-image: url(/img/logo-product/qoffer.svg);
   }
-  .Holyheld-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="Holyheld"] {
     background-image: url(/img/logo-product/Holyheld.svg);
   }
-  .fitly-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="fitly"] {
     background-image: url(/img/logo-product/fitly.svg);
   }
-
-  .fastbit-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="fastbit"] {
     background-image: url(/img/logo-product/fastbit.svg);
   }
-
-  .carry-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="carry"] {
     background-image: url(/img/logo-product/carry.svg);
   }
-  .studio-img {
-    border-radius: 52px;
-    width: 52px;
-    height: 52px;
-    background-size: cover;
+  [data-logo="studio"] {
     background-image: url(/img/logo-product/studio.svg);
   }
+
   .main {
     display: flex;
     padding: 30px;

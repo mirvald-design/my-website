@@ -15,6 +15,7 @@
   }
   .content-left {
     display: flex;
+    height: 100vh;
   }
 
   .content-right {
@@ -111,6 +112,27 @@
 
   [data-logo="bravy"] {
     background-image: url(/img/logo-product/bravy.svg);
+  }
+  [data-logo="ocean"] {
+    background-image: url(/img/logo-product/ocean.svg);
+  }
+  [data-logo="qoffer"] {
+    background-image: url(/img/logo-product/qoffer.svg);
+  }
+  [data-logo="Holyheld"] {
+    background-image: url(/img/logo-product/Holyheld.svg);
+  }
+  [data-logo="fitly"] {
+    background-image: url(/img/logo-product/fitly.svg);
+  }
+  [data-logo="fastbit"] {
+    background-image: url(/img/logo-product/fastbit.svg);
+  }
+  [data-logo="carry"] {
+    background-image: url(/img/logo-product/carry.svg);
+  }
+  [data-logo="studio"] {
+    background-image: url(/img/logo-product/studio.svg);
   }
 
   .project-card {

@@ -71,12 +71,6 @@
     gap: 30px;
   }
 
-  .logo {
-    color: #333;
-    font-size: 18px;
-    font-weight: 700;
-  }
-
   .header-social-block {
     display: flex;
     gap: 12px;

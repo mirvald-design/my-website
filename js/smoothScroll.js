@@ -1,10 +1,7 @@
 function scrollToAnchor(anchor) {
   const target = document.getElementById(anchor);
   if (target) {
-    target.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 }
 
@@ -23,6 +20,12 @@ hiremeButton.addEventListener("click", () => {
   projectsButton.classList.remove("active");
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  projectsButton.click();
+// Убрать вызов scrollToAnchor при загрузке
+//window.addEventListener("load", () => {
+//  projectsButton.click();
+//});
+
+// Вместо этого просто активировать кнопку
+window.addEventListener("load", () => {
+  projectsButton.classList.add("active");
 });

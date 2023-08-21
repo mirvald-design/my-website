@@ -23,6 +23,6 @@ hiremeButton.addEventListener("click", () => {
   projectsButton.classList.remove("active");
 });
 
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
   projectsButton.click();
 });
